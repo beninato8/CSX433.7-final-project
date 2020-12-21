@@ -1,0 +1,7 @@
+# Project Proposal
+
+I would like to work with text generation using TensorFlow and Keras. I would like to try out a variety of methods, like n-gram, Markov chains, and RNN/LSTM. By comparing the outputs of different types of models, I hope to find the advantages and disadvantages in terms of work to set up, speed of training/generation, and quality of output. Even though I don't have much experience working with natural language, I think that it is a pretty cool field and would love to learn more about it through this project. I don't expect to get anything close to GPT-3, but I think that this would be a good learning opportunity for me.
+
+The data source that I hope to use is the text of Trump's tweets, which I can download as a CSV from https://www.thetrumparchive.com/faq. Using pandas, I can easily load the CSV into the program and convert it to a list. Using keras' Tokenizer class, I can convert the text into numerical values, and remove special characters. Each model that I try may require different operations to be performed on the data, but the steps of load data, clean data, train model, and generate text should be similar. 
+
+Through comparing the processes and results of different types of NLP, I hope to gain a better understanding of when different models may perform better. I think that NLP is an interesting area of computer/data science that could change how we communicate with computers, and through this project I hope to get a hands on perspective on how NLP works.
